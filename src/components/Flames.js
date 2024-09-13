@@ -46,6 +46,7 @@ const Flames = () => {
         onChange={(e) => setName1(e.target.value)}
         data-testid="input1"
         placeholder="name1"
+        name="name1"
       />
       <input
         type="text"
@@ -53,6 +54,7 @@ const Flames = () => {
         onChange={(e) => setName2(e.target.value)}
         data-testid="input2"
         placeholder="name2"
+        name="name2"
       />
       <button
         onClick={calculateRelationship}
